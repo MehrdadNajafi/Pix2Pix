@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>980</width>
+    <height>481</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(230, 237, 248);</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QFrame" name="frame">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <layout class="QHBoxLayout" name="horizontalLayout">
+       <item>
+        <widget class="QFrame" name="frame_2">
+         <property name="minimumSize">
+          <size>
+           <width>400</width>
+           <height>400</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_4">
+          <item>
+           <widget class="QFrame" name="frame_5">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_2">
+             <item alignment="Qt::AlignHCenter|Qt::AlignTop">
+              <widget class="QFrame" name="frame_7">
+               <property name="minimumSize">
+                <size>
+                 <width>256</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(84, 80, 214);
+color: rgb(253, 252, 255);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_6">
+                <item>
+                 <widget class="QLabel" name="label_2">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Input Image :</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+              <widget class="QLabel" name="input_label">
+               <property name="minimumSize">
+                <size>
+                 <width>256</width>
+                 <height>256</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(84, 80, 214);
+color: rgb(253, 252, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+          <item>
+           <widget class="QFrame" name="frame_6">
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_3">
+             <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+              <widget class="QPushButton" name="browsfile_btn">
+               <property name="minimumSize">
+                <size>
+                 <width>80</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(84, 80, 214);
+color: rgb(253, 252, 255);</string>
+               </property>
+               <property name="text">
+                <string>Brows File</string>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_4">
+         <property name="minimumSize">
+          <size>
+           <width>130</width>
+           <height>90</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_5">
+          <item>
+           <widget class="QPushButton" name="process_btn">
+            <property name="minimumSize">
+             <size>
+              <width>90</width>
+              <height>50</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true">background-color: rgb(84, 80, 214);
+color: rgb(253, 252, 255);</string>
+            </property>
+            <property name="text">
+             <string>Process</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+       <item>
+        <widget class="QFrame" name="frame_3">
+         <property name="minimumSize">
+          <size>
+           <width>400</width>
+           <height>400</height>
+          </size>
+         </property>
+         <property name="frameShape">
+          <enum>QFrame::StyledPanel</enum>
+         </property>
+         <property name="frameShadow">
+          <enum>QFrame::Raised</enum>
+         </property>
+         <layout class="QVBoxLayout" name="verticalLayout_7">
+          <item alignment="Qt::AlignHCenter|Qt::AlignVCenter">
+           <widget class="QFrame" name="frame_8">
+            <property name="minimumSize">
+             <size>
+              <width>286</width>
+              <height>286</height>
+             </size>
+            </property>
+            <property name="styleSheet">
+             <string notr="true"/>
+            </property>
+            <property name="frameShape">
+             <enum>QFrame::StyledPanel</enum>
+            </property>
+            <property name="frameShadow">
+             <enum>QFrame::Raised</enum>
+            </property>
+            <layout class="QVBoxLayout" name="verticalLayout_9">
+             <item alignment="Qt::AlignTop">
+              <widget class="QFrame" name="frame_9">
+               <property name="minimumSize">
+                <size>
+                 <width>256</width>
+                 <height>40</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(84, 80, 214);
+color: rgb(253, 252, 255);</string>
+               </property>
+               <property name="frameShape">
+                <enum>QFrame::StyledPanel</enum>
+               </property>
+               <property name="frameShadow">
+                <enum>QFrame::Raised</enum>
+               </property>
+               <layout class="QVBoxLayout" name="verticalLayout_8">
+                <item>
+                 <widget class="QLabel" name="label_4">
+                  <property name="font">
+                   <font>
+                    <pointsize>12</pointsize>
+                   </font>
+                  </property>
+                  <property name="text">
+                   <string>Output Image :</string>
+                  </property>
+                  <property name="alignment">
+                   <set>Qt::AlignCenter</set>
+                  </property>
+                 </widget>
+                </item>
+               </layout>
+              </widget>
+             </item>
+             <item>
+              <widget class="QLabel" name="output_label">
+               <property name="minimumSize">
+                <size>
+                 <width>254</width>
+                 <height>254</height>
+                </size>
+               </property>
+               <property name="styleSheet">
+                <string notr="true">background-color: rgb(84, 80, 214);
+color: rgb(253, 252, 255);</string>
+               </property>
+               <property name="text">
+                <string/>
+               </property>
+               <property name="alignment">
+                <set>Qt::AlignCenter</set>
+               </property>
+              </widget>
+             </item>
+            </layout>
+           </widget>
+          </item>
+         </layout>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>980</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
